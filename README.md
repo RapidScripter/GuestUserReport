@@ -28,22 +28,22 @@ This PowerShell script exports a report of all guest users in an Office 365 tena
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YourGitHubUsername/ExportO365Guests.git
-   cd ExportO365Guests
+   git clone https://github.com/RapidScripter/GuestUserReport.git
+   cd GuestUserReport
    ```
 
 2. Open PowerShell and run the script:
    ```powershell
-   .\ExportO365Guests.ps1
+   .\GuestUserReport.ps1
    ```
 
 3. Use the available parameters as needed. For example:
    ```powershell
    # Example command to generate a report for guest users older than 30 days
-   .\ExportO365Guests.ps1 -StaleGuests 30
+   .\GuestUserReport.ps1 -StaleGuests 30
 
    # Example command to generate a report for guest users created within the last 7 days
-   .\ExportO365Guests.ps1 -RecentlyCreatedGuests 7
+   .\GuestUserReport.ps1 -RecentlyCreatedGuests 7
    ```
 
 ## Notes
